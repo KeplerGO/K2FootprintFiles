@@ -1,5 +1,8 @@
-This directory contains MOC files that encode the
-sky coverage of K2 Campaigns.
+# K2 MOC files
 
-MOC is a VO-standard supported by the Aladin visualisation tool.
+This directory contains MOC files that encode the
+sky coverage of past and future K2 Campaigns.
+
+MOC is a HealPix-based VO standard file format
+that is supported by the [Aladin interactive sky atlas](http://aladin.u-strasbg.fr).
 
