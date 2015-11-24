@@ -26,8 +26,8 @@ Their footprints are made available in preliminary files:
 
 In addition to JSON and CSV files,
 this repository also [offers files in the MOC data format](https://github.com/KeplerGO/K2FootprintFiles/tree/master/moc-files).
-MOC is a HealPix-based VO standard which can be loaded into [Aladin](http://aladin.u-strasbg.fr)
-and be used to query remote databases.
+MOC is a HealPix-based VO standard which can be loaded into [Aladin interactive sky atlas](http://aladin.u-strasbg.fr)
+and be used to query remote databases there.
 
 ## More info
 
