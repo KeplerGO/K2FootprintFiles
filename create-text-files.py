@@ -113,21 +113,21 @@ if __name__ == "__main__":
             json_dict["c{}".format(campaign)] = campaign_dict
 
     # Write the results to disk
-    output_fn = "k2-footprint.json"
+    output_fn = "json/k2-footprint.json"
     log.info("Writing {}".format(output_fn))
     json.dump(json_dict, open(output_fn, "w"), indent=2)
 
-    output_fn = "k2-footprint-proposed.json"
+    output_fn = "json/k2-footprint-proposed.json"
     log.info("Writing {}".format(output_fn))
     json.dump(json_dict_prelim, open(output_fn, "w"), indent=2)
 
     # Also save a csv table
     names = ["campaign", "start", "stop", "channel", "module", "output",
              "ra0", "dec0", "ra1", "dec1", "ra2", "dec2", "ra3", "dec3"]
-    output_fn = "k2-footprint.csv"
+    output_fn = "csv/k2-footprint.csv"
     log.info("Writing {}".format(output_fn))
     Table(tbl, names=names).write(output_fn, format="ascii.csv")
 
-    output_fn = "k2-footprint-proposed.csv"
+    output_fn = "csv/k2-footprint-proposed.csv"
     log.info("Writing {}".format(output_fn))
     Table(tbl_prelim, names=names).write(output_fn, format="ascii.csv")
