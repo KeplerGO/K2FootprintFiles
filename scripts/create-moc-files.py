@@ -29,9 +29,9 @@ FOOTPRINT.update(json.load(open("../k2-footprint-proposed.json")))
 def write_k2_moc(campaign=0, norder_moc=NORDER_MOC, output_fn=None):
     if output_fn is None:
         if campaign in CAMPAIGNS_PROPOSED:
-            output_fn = "moc/k2-footprint-c{:02d}-proposed.moc".format(campaign)
+            output_fn = "../moc/k2-footprint-c{:02d}-proposed.moc".format(campaign)
         else:
-            output_fn = "moc/k2-footprint-c{:02d}.moc".format(campaign)
+            output_fn = "../moc/k2-footprint-c{:02d}.moc".format(campaign)
     # Obtain the footprint corners in polar coordinates
     log.info("Preparing footprint polygons for C{}".format(campaign))
     polygons = []

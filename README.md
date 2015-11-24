@@ -1,6 +1,6 @@
 # K2FootprintFiles
 
-***Machine-readable files that detail the footprints of the K2 Campaign fields.***
+***Machine-readable files that detail the footprints of the K2 Campaign fields on the sky.***
 
 This repository enables users of 
 [NASA's K2 mission](http://keplerscience.arc.nasa.gov)
@@ -24,7 +24,7 @@ Their footprints are made available in preliminary files:
  * [json/k2-footprint-proposed.json](https://github.com/KeplerGO/K2FootprintFiles/raw/master/json/k2-footprint-proposed.json) (preliminary!)
  * [csv/k2-footprint-proposed.csv](https://github.com/KeplerGO/K2FootprintFiles/raw/master/csv/k2-footprint-proposed.csv) (preliminary!)
 
-These files were created by executing `python create-text-files.py`.
+These files were created using `scripts/create-text-files.py`.
 
 ## MOC HealPix files
 
