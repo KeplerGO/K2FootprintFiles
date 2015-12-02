@@ -1,12 +1,14 @@
 # Simbad catalog of candidate K2 targets
 
 The file `K2-C9-C18-Simbad.xml.gz` in this directory is a VOTable
-that lists all the Simbad entries that lie on Silicon 
+that lists all the [SIMBAD](http://simbad.u-strasbg.fr/simbad/) entries that lie on Silicon 
 in Campaigns 9 through 18, i.e. for which pixel masks can be
 requested via calls for proposals or Director's Discretionary Time (DDT).
 
-Beware that the positions of Campaigns 14 through 18 are preliminary at this point,
-and so is the catalog for these campaigns.
+Beware that the positions of Campaigns 14 through 18 are preliminary at this point
+and are due to change by a few arcminutes or more (e.g. to accommodate suitable guide stars).
+This catalog is hence preliminary for those Campaigns.
+Community feedback on the final placement of these fields is welcome.
 
 
 ### Contents
