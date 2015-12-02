@@ -16,7 +16,7 @@ or [AstroPy](http://www.astropy.org)'s `Table.read()` to inspect the table.
 
 ### Caveats
 * Objects on or near the edges of CCD detectors have been included in this catalog,
-eventhough they may not be observable (depending on their brightness i.e. mask size required).
+eventhough they may not be observable.  The true observability will depend on the brightness, i.e. the pixel mask size required.
 * The positions of Campaigns 14 through 18 are preliminary and will certainly change by a few arcminutes, or more, e.g. to accommodate the guide star selection. This catalog is hence preliminary for those Campaigns.
 
 ###  Author
