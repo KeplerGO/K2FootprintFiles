@@ -62,6 +62,7 @@ Taurids (young star forming region), includes:<br>
   - LkCa15 (thought to show an actively-forming exoplanet in direct imaging)<br>
   - XZ Tau (binary young system which showed a superflare in 2000)<br>
   - HBC 393 (FUOr; extremely variable abrupt mass accretion events)<br>
+
 Hyades (open cluster), includes:<br>
   - eps Tau (bright Hyades member with known RV planet, V=4)<br>
 
@@ -78,6 +79,7 @@ Asteroid Toutatis (visited by a Chinese spacecraft in 2012)<br>
 
 ## Campaign 15
 
+Asteroid Ryugu (to be visited by the Hayabusa 2 spacecraft in July 2018, i.e. 10 months later)
 Asteroid Gaspra (visited by the Galileo spacecraft in 1991)<br>
 Asteroid 2101 Adonis (thought to be an extinct comet, partially in field)<br>
 
