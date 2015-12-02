@@ -79,7 +79,7 @@ Asteroid Toutatis (visited by a Chinese spacecraft in 2012)<br>
 
 ## Campaign 15
 
-Asteroid Ryugu (to be visited by the Hayabusa 2 spacecraft in July 2018, i.e. 10 months later)
+Asteroid Ryugu (to be visited by the Hayabusa 2 spacecraft in July 2018, i.e. 10 months later)<br>
 Asteroid Gaspra (visited by the Galileo spacecraft in 1991)<br>
 Asteroid 2101 Adonis (thought to be an extinct comet, partially in field)<br>
 
