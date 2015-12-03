@@ -2,11 +2,15 @@
 
 In this document I list the most highly-cited SIMBAD objects that will be
 visible in Campaigns C9 through C18, along with a few special classes of
-Solar System bodies. (Geert Barentsen, 1 Dec 2015.)
+Solar System bodies.
 
+This list is by not exhaustive by any means.
+Classes of objects that have not been checked systematically yet
+include known exoplanet host stars and comet.
+
+(Geert Barentsen, 1 Dec 2015.)
 
 ## Campaign 9  (Near Galactic Center)
-
 M8 (Lagoon Nebula)<br>
 M20 (Trifid Nebula)<br>
 Terzan 5 (global cluster in the bulge)<br>
@@ -19,9 +23,7 @@ Dwarf plant Quaoar<br>
 Asteroid Sylvia (has two moons)<br>
 Asteroid Antiope (binary)<br>
 
-
 ## Campaign 10  (North Galactic Cap)<br>
-
 3C 273 (brightest quasar in the sky, V=13)<br>
 NGC 4593 (bright Seyfert 1 galaxy, V=13)<br>
 GW Vir (pulsating white dwarf, V=15)<br>
@@ -32,7 +34,6 @@ Asteroid Itokawa (visited by Hayabuse spacecraft in 2005)<br>
 
 
 ## Campaign 11  (Near Galactic Center)<br>
-
 BF Oph (classical Cepheid)<br>
 Kepler's SN remnant<br>
 V2116 Oph (symbiotic star, V=18)<br>
@@ -43,9 +44,7 @@ Asteroid Ixion (candidate dwarf planet)<br>
 Asteroid Sylvia (has two moons)<br>
 Mars Trojan 311999 (moves very fast)<br>
 
-
 ## Campaign 12  (South Galactic Cap)<br>
-
 Mars<br>
 Comet Chiron (thought to have ring system!!)<br>
 Main Belt Comet 118401 LINEAR<br>
@@ -53,7 +52,6 @@ Asteroid Itokawa (visited by Hayabuse in 2005)<br>
 
 
 ## Campaign 13 (~Galactic anti-center)
-
 Aldebaran (famous K giant, V=0)<br>
 Taurids (young star forming region), includes:<br>
   - HL Tau (protoplanetary disk famously imaged by ALMA, V=15)<br>
@@ -68,29 +66,22 @@ Hyades (open cluster), includes:<br>
 
 Asteroid Annefrank (visited by the Stardust spacecraft in 2002)<br>
 
-
 ## Campaign 14
-
 Leo I Group of galaxies (includes M95, M96, M105; V=10; in Local Supercluster)<br>
 rho Leo (bright B-type supergiant, V=4)<br>
 
 Asteroid Toutatis (visited by a Chinese spacecraft in 2012)<br>
 
-
 ## Campaign 15
-
 Asteroid Ryugu (to be visited by the Hayabusa 2 spacecraft in July 2018, i.e. 10 months later)<br>
 Asteroid Gaspra (visited by the Galileo spacecraft in 1991)<br>
 Asteroid 2101 Adonis (thought to be an extinct comet, partially in field)<br>
 
-
 ## Campaign 16
-
 Comet 2P/Encke (parent Taurid meteoroid stream; variable mass loss)<br>
 
 
 ## Campaign 17  (North Galactic Cap)
-
 3C 279 (notoriously variable quasar, V=18)<br>
 NGC 4593 (bright Seyfert 1 galaxy, V=13)<br>
 M61 (bright galaxy in Virgo Cluster; V=10)<br>
@@ -99,9 +90,7 @@ NGC 4527 (bright Virgo Cluster galaxy, V=11)<br>
 Earth<br>
 Asteroid 2101 Adonis (thought to be an extinct comet, partially in field)<br>
 
-
 ## Campaign 18
-
 zet Gem (bright Classical Cepheid, V=4)<br>
 Eskimo Nebula (bright planetary nebula, V=10)<br>
 
