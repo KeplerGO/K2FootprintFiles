@@ -4,7 +4,7 @@ In this document I list the most highly-cited SIMBAD objects that will be
 visible in Campaigns C9 through C18, along with a few special classes of
 Solar System bodies.
 
-This list is by not exhaustive by any means.
+This list is not exhaustive by any means.
 Classes of objects that have not been checked systematically yet
 include known exoplanet host stars and comet.
 
