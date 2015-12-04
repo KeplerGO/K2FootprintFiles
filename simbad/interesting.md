@@ -45,6 +45,8 @@ Asteroid Sylvia (has two moons)<br>
 Mars Trojan 311999 (moves very fast)<br>
 
 ## Campaign 12  (South Galactic Cap)<br>
+HIP 116454 (exoplanet host star)<br>
+
 Mars<br>
 Comet Chiron (thought to have ring system!!)<br>
 Main Belt Comet 118401 LINEAR<br>
@@ -70,6 +72,8 @@ Asteroid Annefrank (visited by the Stardust spacecraft in 2002)<br>
 Leo I Group of galaxies (includes M95, M96, M105; V=10; in Local Supercluster)<br>
 rho Leo (bright B-type supergiant, V=4)<br>
 
+WASP-104b (exoplanet host star)
+
 Asteroid Toutatis (visited by a Chinese spacecraft in 2012)<br>
 
 ## Campaign 15
@@ -78,6 +82,8 @@ Asteroid Gaspra (visited by the Galileo spacecraft in 1991)<br>
 Asteroid 2101 Adonis (thought to be an extinct comet, partially in field)<br>
 
 ## Campaign 16
+WASP-70Ab (exoplanet host star)
+
 Comet 2P/Encke (parent Taurid meteoroid stream; variable mass loss)<br>
 
 
@@ -93,6 +99,8 @@ Asteroid 2101 Adonis (thought to be an extinct comet, partially in field)<br>
 ## Campaign 18
 zet Gem (bright Classical Cepheid, V=4)<br>
 Eskimo Nebula (bright planetary nebula, V=10)<br>
+
+HAT-P-39 (exoplanet host star)
 
 Main Belt Comet 176P/Linear<br>
 Main Belt Comet (300163) 2006 VW139<br>
