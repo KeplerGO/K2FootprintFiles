@@ -9,7 +9,7 @@ from astropy import log
 from astropy.utils.console import ProgressBar
 
 from K2fov import fov
-from K2fov.K2onSilicon import getRaDecRollFromFieldnum
+from K2fov.K2onSilicon import getFieldInfo, getRaDecRollFromFieldnum
 
 from astropy.coordinates import SkyCoord
 
@@ -18,20 +18,7 @@ from astropy.coordinates import SkyCoord
 # Note: K2fov defines the FGS chips as "channels" 85-88; we ignore these
 CHANNELS_TO_IGNORE = [5, 6, 7, 8, 17, 18, 19, 20,
                       85, 86, 87, 88]
-CAMPAIGNS = Table.read("k2-campaigns.csv")
-START_OF_PRELIMINARY_CAMPAIGNS = 14
-
-
-def get_metadata(campaign):
-    """Returns (start_time, stop_time, comments) for each campaign
-
-    Times are given as UTC dates and are approximate.
-    """
-    campaign_idx = CAMPAIGNS["campaign"] == campaign
-    start = CAMPAIGNS[campaign_idx]["start"][0]
-    stop = CAMPAIGNS[campaign_idx]["stop"][0]
-    comments = CAMPAIGNS[campaign_idx]["comments"][0]
-    return (start, stop, comments)
+NO_CAMPAIGNS = 18    # Total number of campaigns
 
 
 def get_footprint(campaign):
@@ -51,9 +38,9 @@ if __name__ == "__main__":
     json_dict = OrderedDict([])
     json_dict_prelim = OrderedDict([])
 
-    for campaign in ProgressBar(range(len(CAMPAIGNS))):
+    for campaign in ProgressBar(range(NO_CAMPAIGNS)):
         # Obtain the metadata
-        start, stop, comments = get_metadata(campaign)
+        fieldinfo = getFieldInfo(campaign)
         ra_bore, dec_bore, roll, corners = get_footprint(campaign)
 
         # Convert the footprint into a user-friendly format
@@ -80,8 +67,8 @@ if __name__ == "__main__":
                                         ])
             tbl_row = {
                       "campaign": campaign,
-                      "start": start,
-                      "stop": stop,
+                      "start": fieldinfo["start"],
+                      "stop": fieldinfo["stop"],
                       "channel": ch,
                       "module": mdl,
                       "output": out,
@@ -90,7 +77,7 @@ if __name__ == "__main__":
                 tbl_row["ra{}".format(corner_idx)] = ra[corner_idx]
                 tbl_row["dec{}".format(corner_idx)] = dec[corner_idx]
 
-            if campaign >= START_OF_PRELIMINARY_CAMPAIGNS:
+            if "preliminary" in fieldinfo:
                 tbl_prelim.append(tbl_row)
             else:
                 tbl.append(tbl_row)
@@ -98,16 +85,16 @@ if __name__ == "__main__":
         # Add the metadata to the JSON dictionary
         campaign_dict = OrderedDict([
                                     ("campaign", campaign),
-                                    ("start", start),
-                                    ("stop", stop),
+                                    ("start", fieldinfo["start"]),
+                                    ("stop", fieldinfo["stop"]),
                                     ("ra", ra_bore),
                                     ("dec", dec_bore),
                                     ("roll", roll),
-                                    ("comments", comments),
+                                    ("comments", fieldinfo["comments"]),
                                     ("channels", channels)
                                     ])
 
-        if campaign >= START_OF_PRELIMINARY_CAMPAIGNS:
+        if "preliminary" in fieldinfo:
             json_dict_prelim["c{}".format(campaign)] = campaign_dict
         else:
             json_dict["c{}".format(campaign)] = campaign_dict
