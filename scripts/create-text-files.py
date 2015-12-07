@@ -8,8 +8,7 @@ from astropy.table import Table
 from astropy import log
 from astropy.utils.console import ProgressBar
 
-from K2fov import fov
-from K2fov.K2onSilicon import getFieldInfo, getRaDecRollFromFieldnum
+from K2fov.K2onSilicon import getFieldInfo, getKeplerFov
 
 from astropy.coordinates import SkyCoord
 
@@ -21,18 +20,7 @@ CHANNELS_TO_IGNORE = [5, 6, 7, 8, 17, 18, 19, 20,
 NO_CAMPAIGNS = 18    # Total number of campaigns
 
 
-def get_footprint(campaign):
-    ra, dec, scRoll = getRaDecRollFromFieldnum(campaign)
-    # convert from SC roll to FOV coordinates
-    # do not use the fovRoll coords anywhere else
-    # they are internal to this script only
-    fovRoll = fov.getFovAngleFromSpacecraftRoll(scRoll)
-    kfov = fov.KeplerFov(ra, dec, fovRoll)
-    return (ra, dec, scRoll, kfov.getCoordsOfChannelCorners())
-
-
 if __name__ == "__main__":
-
     tbl = []
     tbl_prelim = []
     json_dict = OrderedDict([])
@@ -41,7 +29,7 @@ if __name__ == "__main__":
     for campaign in ProgressBar(range(NO_CAMPAIGNS)):
         # Obtain the metadata
         fieldinfo = getFieldInfo(campaign)
-        ra_bore, dec_bore, roll, corners = get_footprint(campaign)
+        corners = getKeplerFov(campaign).getCoordsOfChannelCorners()
 
         # Convert the footprint into a user-friendly format
         channels = OrderedDict([])
@@ -87,9 +75,9 @@ if __name__ == "__main__":
                                     ("campaign", campaign),
                                     ("start", fieldinfo["start"]),
                                     ("stop", fieldinfo["stop"]),
-                                    ("ra", ra_bore),
-                                    ("dec", dec_bore),
-                                    ("roll", roll),
+                                    ("ra", fieldinfo["ra"]),
+                                    ("dec", fieldinfo["dec"]),
+                                    ("roll", fieldinfo["roll"]),
                                     ("comments", fieldinfo["comments"]),
                                     ("channels", channels)
                                     ])

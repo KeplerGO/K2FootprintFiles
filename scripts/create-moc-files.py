@@ -15,20 +15,21 @@ import healpy as hp
 import mocpy
 from mocpy.utils import radec2thetaphi
 
+from K2fov.K2onSilicon import getFieldInfo
 
 # Which campaigns do we want to MOCs for?
-CAMPAIGNS = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]
-CAMPAIGNS_PROPOSED = [14, 15, 16, 17]
+CAMPAIGNS = list(range(0, 19))
 # What is the best healpix resolution we desire?
 NORDER_MOC = 14
 # Load the K2 footprint corners?
-FOOTPRINT = json.load(open("../k2-footprint.json"))
-FOOTPRINT.update(json.load(open("../k2-footprint-proposed.json")))
+FOOTPRINT = json.load(open("../json/k2-footprint.json"))
+FOOTPRINT.update(json.load(open("../json/k2-footprint-proposed.json")))
 
 
 def write_k2_moc(campaign=0, norder_moc=NORDER_MOC, output_fn=None):
     if output_fn is None:
-        if campaign in CAMPAIGNS_PROPOSED:
+        fieldinfo = getFieldInfo(campaign)
+        if "preliminary" in fieldinfo:
             output_fn = "../moc/k2-footprint-c{:02d}-proposed.moc".format(campaign)
         else:
             output_fn = "../moc/k2-footprint-c{:02d}.moc".format(campaign)
@@ -57,5 +58,4 @@ def write_k2_moc(campaign=0, norder_moc=NORDER_MOC, output_fn=None):
 
 if __name__ == "__main__":
     # Write MOC files for all campaigns in parallel
-    ProgressBar.map(write_k2_moc, CAMPAIGNS_PROPOSED,
-                    multiprocess=True)
+    ProgressBar.map(write_k2_moc, CAMPAIGNS, multiprocess=True)
