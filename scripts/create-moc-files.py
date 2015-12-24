@@ -15,10 +15,8 @@ import healpy as hp
 import mocpy
 from mocpy.utils import radec2thetaphi
 
-from K2fov.K2onSilicon import getFieldInfo
+from K2fov.K2onSilicon import getFieldNumbers, getFieldInfo
 
-# Which campaigns do we want to MOCs for?
-CAMPAIGNS = list(range(0, 19))
 # What is the best healpix resolution we desire?
 NORDER_MOC = 14
 # Load the K2 footprint corners?
@@ -58,4 +56,5 @@ def write_k2_moc(campaign=0, norder_moc=NORDER_MOC, output_fn=None):
 
 if __name__ == "__main__":
     # Write MOC files for all campaigns in parallel
-    ProgressBar.map(write_k2_moc, CAMPAIGNS, multiprocess=True)
+    campaigns = getFieldNumbers()
+    ProgressBar.map(write_k2_moc, campaigns, multiprocess=True)

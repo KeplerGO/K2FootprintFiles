@@ -8,7 +8,7 @@ from astropy.table import Table
 from astropy import log
 from astropy.utils.console import ProgressBar
 
-from K2fov.K2onSilicon import getFieldInfo, getKeplerFov
+from K2fov.K2onSilicon import getFieldNumbers, getFieldInfo, getKeplerFov
 
 from astropy.coordinates import SkyCoord
 
@@ -17,7 +17,6 @@ from astropy.coordinates import SkyCoord
 # Note: K2fov defines the FGS chips as "channels" 85-88; we ignore these
 CHANNELS_TO_IGNORE = [5, 6, 7, 8, 17, 18, 19, 20,
                       85, 86, 87, 88]
-NO_CAMPAIGNS = 18    # Total number of campaigns
 
 
 if __name__ == "__main__":
@@ -26,7 +25,7 @@ if __name__ == "__main__":
     json_dict = OrderedDict([])
     json_dict_prelim = OrderedDict([])
 
-    for campaign in ProgressBar(range(NO_CAMPAIGNS)):
+    for campaign in ProgressBar(getFieldNumbers()):
         # Obtain the metadata
         fieldinfo = getFieldInfo(campaign)
         corners = getKeplerFov(campaign).getCoordsOfChannelCorners()
