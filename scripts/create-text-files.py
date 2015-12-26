@@ -7,10 +7,9 @@ import numpy as np
 from astropy.table import Table
 from astropy import log
 from astropy.utils.console import ProgressBar
-
-from K2fov.K2onSilicon import getFieldNumbers, getFieldInfo, getKeplerFov
-
 from astropy.coordinates import SkyCoord
+
+from K2fov import getFieldNumbers, getFieldInfo, getKeplerFov
 
 """Configuration constants"""
 # Which channels are no longer in use?

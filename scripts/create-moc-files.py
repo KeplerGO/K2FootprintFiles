@@ -15,7 +15,7 @@ import healpy as hp
 import mocpy
 from mocpy.utils import radec2thetaphi
 
-from K2fov.K2onSilicon import getFieldNumbers, getFieldInfo
+from K2fov import getFieldNumbers, getFieldInfo
 
 # What is the best healpix resolution we desire?
 NORDER_MOC = 14
