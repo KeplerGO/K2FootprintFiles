@@ -34,6 +34,7 @@ Asteroid Itokawa (visited by Hayabuse spacecraft in 2005)<br>
 
 
 ## Campaign 11  (Near Galactic Center)<br>
+M9 (12 Gyr globular cluster, aka NGC 6333)<br>
 BF Oph (classical Cepheid)<br>
 Kepler's SN remnant<br>
 V2116 Oph (symbiotic star, V=18)<br>
@@ -66,6 +67,9 @@ Taurids (young star forming region), includes:<br>
 Hyades (open cluster), includes:<br>
   - eps Tau (bright Hyades member with known RV planet, V=4)<br>
 
+NGC 1647, 1746, 1750, 1802, 1807 (open clusters, poorly studied?)<br>
+NGC 1817 (1 Gyr open cluster, 2 kpc)<br>
+
 Asteroid Annefrank (visited by the Stardust spacecraft in 2002)<br>
 
 ## Campaign 14
@@ -90,7 +94,7 @@ Comet 2P/Encke (parent Taurid meteoroid stream; variable mass loss)<br>
 ## Campaign 17  (North Galactic Cap)
 3C 279 (notoriously variable quasar, V=18)<br>
 NGC 4593 (bright Seyfert 1 galaxy, V=13)<br>
-M61 (bright galaxy in Virgo Cluster; V=10)<br>
+M61 (bright spiral galaxy in Virgo Cluster; V=10, ~6 arcmin wide)<br>
 NGC 4527 (bright Virgo Cluster galaxy, V=11)<br>
 
 Earth<br>
