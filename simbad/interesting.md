@@ -44,6 +44,7 @@ Saturn<br>
 Asteroid Ixion (candidate dwarf planet)<br>
 Asteroid Sylvia (has two moons)<br>
 Mars Trojan 311999 (moves very fast)<br>
+Comet 116P/Wild 4
 
 ## Campaign 12  (South Galactic Cap)<br>
 HIP 116454 (exoplanet host star)<br>
@@ -52,6 +53,7 @@ Mars<br>
 Comet Chiron (thought to have ring system!!)<br>
 Main Belt Comet 118401 LINEAR<br>
 Asteroid Itokawa (visited by Hayabuse in 2005)<br>
+Comet 53P/Van Biesbroeck
 
 
 ## Campaign 13 (~Galactic anti-center)
@@ -79,17 +81,24 @@ rho Leo (bright B-type supergiant, V=4)<br>
 WASP-104b (exoplanet host star)
 
 Asteroid Toutatis (visited by a Chinese spacecraft in 2012)<br>
+Comet 61P/Shajn-Schaldach
 
 ## Campaign 15
 Asteroid Ryugu (to be visited by the Hayabusa 2 spacecraft in July 2018, i.e. 10 months later)<br>
 Asteroid Gaspra (visited by the Galileo spacecraft in 1991)<br>
 Asteroid 2101 Adonis (thought to be an extinct comet, partially in field)<br>
+Comet 204P<br>
+Comet C/2014 W2
 
 ## Campaign 16
 WASP-70Ab (exoplanet host star)
 
 Comet 2P/Encke (parent Taurid meteoroid stream; variable mass loss)<br>
+Comet 29P/Schwassmann-Wachmann 1<br>
+Comet 41P/Tuttle-Giacobini-Kresak<br>
+Comet 116P/Wild 4
 
+M73 (open cluster or asterism)
 
 ## Campaign 17  (North Galactic Cap)
 3C 279 (notoriously variable quasar, V=18)<br>
@@ -99,6 +108,8 @@ NGC 4527 (bright Virgo Cluster galaxy, V=11)<br>
 
 Earth<br>
 Asteroid 2101 Adonis (thought to be an extinct comet, partially in field)<br>
+Comet 61P/Shajn-Schaldach<br>
+Comet 74P/Smirnova-Chernykh
 
 ## Campaign 18
 zet Gem (bright Classical Cepheid, V=4)<br>
@@ -108,3 +119,4 @@ HAT-P-39 (exoplanet host star)
 
 Main Belt Comet 176P/Linear<br>
 Main Belt Comet (300163) 2006 VW139<br>
+Comet 88P/Howell
