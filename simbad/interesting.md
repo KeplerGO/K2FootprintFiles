@@ -30,7 +30,7 @@ GW Vir (pulsating white dwarf, V=15)<br>
 NGC 4536 (bright spiral galaxy, V=11)<br>
 NGC 4527 (bright Virgo Cluster galaxy, V=11)<br>
 
-Asteroid Itokawa (visited by Hayabuse spacecraft in 2005)<br>
+Asteroid Itokawa (visited by Hayabuse spacecraft in 2005 -- moves at 100 arcsec/hr however)<br>
 
 
 ## Campaign 11  (Near Galactic Center)<br>
@@ -84,7 +84,7 @@ Asteroid Toutatis (visited by a Chinese spacecraft in 2012)<br>
 Comet 61P/Shajn-Schaldach
 
 ## Campaign 15
-Asteroid Ryugu (to be visited by the Hayabusa 2 spacecraft in July 2018, i.e. 10 months later)<br>
+Asteroid Ryugu (to be visited by the Hayabusa 2 spacecraft in July 2018, i.e. 10 months later -- unfortunately it will only be at 0.5 AU from Kepler, with an apparent motion of 50 arcsec/hr at magnitude 20)<br>
 Asteroid Gaspra (visited by the Galileo spacecraft in 1991)<br>
 Asteroid 2101 Adonis (thought to be an extinct comet, partially in field)<br>
 Comet 204P<br>
