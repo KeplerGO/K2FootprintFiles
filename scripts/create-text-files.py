@@ -14,9 +14,11 @@ from K2fov import getFieldNumbers, getFieldInfo, getKeplerFov
 """Configuration constants"""
 # Which channels are no longer in use?
 # Note: K2fov defines the FGS chips as "channels" 85-88; we ignore these
-CHANNELS_TO_IGNORE = [5, 6, 7, 8, 17, 18, 19, 20,
+CHANNELS_TO_IGNORE = [5, 6, 7, 8,
+                      17, 18, 19, 20,
                       85, 86, 87, 88]
-
+# Module 4 failed during Campaign 10
+CHANNELS_TO_IGNORE_FROM_C11 = CHANNELS_TO_IGNORE + [9, 10, 11, 12]
 
 if __name__ == "__main__":
     tbl = []
@@ -32,7 +34,7 @@ if __name__ == "__main__":
         # Convert the footprint into a user-friendly format
         channels = OrderedDict([])
         for ch in np.arange(1, 89, dtype=int):
-            if ch in CHANNELS_TO_IGNORE:
+            if (ch in CHANNELS_TO_IGNORE) or (campaign > 10 and ch in CHANNELS_TO_IGNORE_FROM_C11):
                 continue  # certain channel are no longer used
             idx = np.where(corners[::, 2] == ch)
             mdl = int(corners[idx, 0][0][0])
@@ -99,8 +101,8 @@ if __name__ == "__main__":
              "ra0", "dec0", "ra1", "dec1", "ra2", "dec2", "ra3", "dec3"]
     output_fn = "../csv/k2-footprint.csv"
     log.info("Writing {}".format(output_fn))
-    Table(tbl, names=names).write(output_fn, format="ascii.csv")
+    Table(tbl, names=names).write(output_fn, format="ascii.csv", overwrite=True)
 
     output_fn = "../csv/k2-footprint-proposed.csv"
     log.info("Writing {}".format(output_fn))
-    Table(tbl_prelim, names=names).write(output_fn, format="ascii.csv")
+    Table(tbl_prelim, names=names).write(output_fn, format="ascii.csv", overwrite=True)
