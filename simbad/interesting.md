@@ -75,30 +75,41 @@ NGC 1817 (1 Gyr open cluster, 2 kpc)<br>
 Asteroid Annefrank (visited by the Stardust spacecraft in 2002)<br>
 
 ## Campaign 14
+Wolf 359 (very nearby 2.4pc; late M dwarf; flare star; V=14) -- https://en.wikipedia.org/wiki/Wolf_359<br>
+ρ Leo (bright B-type supergiant, V=4) -- https://en.wikipedia.org/wiki/Rho_Leonis<br/>
 Leo I Group of galaxies (includes M95, M96, M105; V=10; in Local Supercluster)<br>
-rho Leo (bright B-type supergiant, V=4)<br>
-
-WASP-104b (exoplanet host star)
-
+BD+01 2447 (nearby M dwarf)<br>
+WASP-104 (known exoplanet host)<br>
 Asteroid Toutatis (visited by a Chinese spacecraft in 2012)<br>
 Comet 61P/Shajn-Schaldach
-
+    
 ## Campaign 15
+δ Scorpii (B-type binary member of the 10 Myr Upper Sco, 2nd magnitude) -- https://en.wikipedia.org/wiki/Delta_Scorpii <br>
+HD 134439 & HD 134440 (low-metallicity proper motion pair) <br>
+NGC 5897 (12 Gyr halo globular cluster) <br>
+33 Lib (bright roAp-type star; V=7) <br>
+Upper Sco <br>
+Partial overlap with Campaign 2 targets <br>
+HP Lib<br>
+GW Lib<br>
+L5 Dwarf<br>
+HIP 78530 (known exoplanet host)<br>
+
 Asteroid Ryugu (to be visited by the Hayabusa 2 spacecraft in July 2018, i.e. 10 months later -- unfortunately it will only be at 0.5 AU from Kepler, with an apparent motion of 50 arcsec/hr at magnitude 20)<br>
 Asteroid Gaspra (visited by the Galileo spacecraft in 1991)<br>
-Asteroid 2101 Adonis (thought to be an extinct comet, partially in field)<br>
+
 Comet 204P<br>
 Comet C/2014 W2
 
 ## Campaign 16
-WASP-70Ab (exoplanet host star)
+M44 aka Beehive aka Praesepe (600 Myr-old open cluster)<br>
+M67 (4 Gyr-old open cluster)
 
-Comet 2P/Encke (parent Taurid meteoroid stream; variable mass loss)<br>
-Comet 29P/Schwassmann-Wachmann 1<br>
-Comet 41P/Tuttle-Giacobini-Kresak<br>
-Comet 116P/Wild 4
+Arkushanangarushashutu (aka δ Cancri; star with the longest name; bright K-type giant; V=4) -- https://en.wikipedia.org/wiki/Delta_Cancri
 
-M73 (open cluster or asterism)
+K2-34 (Known exoplanet host)
+Known planet hosts in the Beehive cluster
+Campaign 5 targets due to partial overlap
 
 ## Campaign 17  (North Galactic Cap)
 3C 279 (notoriously variable quasar, V=18)<br>
@@ -106,8 +117,11 @@ NGC 4593 (bright Seyfert 1 galaxy, V=13)<br>
 M61 (bright spiral galaxy in Virgo Cluster; V=10, ~6 arcmin wide)<br>
 NGC 4527 (bright Virgo Cluster galaxy, V=11)<br>
 
+Abell 30 (well-studied planetary nebula) -- http://chandra.harvard.edu/photo/2012/a30/
+http://chandra.harvard.edu/photo/2012/a30/
+
 Earth<br>
-Asteroid 2101 Adonis (thought to be an extinct comet, partially in field)<br>
+Asteroid 2101 Adonis (thought to be an extinct comet)<br>
 Comet 61P/Shajn-Schaldach<br>
 Comet 74P/Smirnova-Chernykh
 
