@@ -1,8 +1,8 @@
 # Simbad catalog of candidate K2 targets
 
-The file `K2-C9-C18-Simbad.xml.gz` in this directory is a VOTable
+The files `K2-C9-C13-Simbad.xml.gz` and `K2-C14-C16-Simbad.xml.gz` in this directory are VOTables
 that lists all the [SIMBAD](http://simbad.u-strasbg.fr/simbad/) entries that will lie on silicon 
-in [Campaigns 9 through 18](http://keplerscience.arc.nasa.gov/k2-fields.html), i.e. future campaigns
+in [Campaigns 9 through 16](http://keplerscience.arc.nasa.gov/k2-fields.html), i.e. future campaigns
 for which pixel masks can be requested via the 
 standard [calls for proposals](http://keplerscience.arc.nasa.gov/k2-proposing-targets.html) 
 or via [Director's Discretionary Time](http://keplerscience.arc.nasa.gov/k2-ddt.html) (DDT).
