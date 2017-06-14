@@ -21,7 +21,7 @@ from K2fov import getFieldNumbers, getFieldInfo
 NORDER_MOC = 14
 # Load the K2 footprint corners?
 FOOTPRINT = json.load(open("../json/k2-footprint.json"))
-FOOTPRINT.update(json.load(open("../json/k2-footprint-proposed.json")))
+#FOOTPRINT.update(json.load(open("../json/k2-footprint-proposed.json")))
 
 
 def write_k2_moc(campaign=0, norder_moc=NORDER_MOC, output_fn=None):
@@ -56,5 +56,7 @@ def write_k2_moc(campaign=0, norder_moc=NORDER_MOC, output_fn=None):
 
 if __name__ == "__main__":
     # Write MOC files for all campaigns in parallel
-    campaigns = getFieldNumbers()
+    #campaigns = getFieldNumbers()
+    campaigns = [15, 16, 17, 18, 19]
     ProgressBar.map(write_k2_moc, campaigns, multiprocess=True)
+    #write_k2_moc(112)
