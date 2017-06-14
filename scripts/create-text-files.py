@@ -92,9 +92,9 @@ if __name__ == "__main__":
     log.info("Writing {}".format(output_fn))
     json.dump(json_dict, open(output_fn, "w"), indent=2)
 
-    output_fn = "../json/k2-footprint-proposed.json"
-    log.info("Writing {}".format(output_fn))
-    json.dump(json_dict_prelim, open(output_fn, "w"), indent=2)
+    #output_fn = "../json/k2-footprint-proposed.json"
+    #log.info("Writing {}".format(output_fn))
+    #json.dump(json_dict_prelim, open(output_fn, "w"), indent=2)
 
     # Also save a csv table
     names = ["campaign", "start", "stop", "channel", "module", "output",
@@ -103,6 +103,6 @@ if __name__ == "__main__":
     log.info("Writing {}".format(output_fn))
     Table(tbl, names=names).write(output_fn, format="ascii.csv", overwrite=True)
 
-    output_fn = "../csv/k2-footprint-proposed.csv"
-    log.info("Writing {}".format(output_fn))
-    Table(tbl_prelim, names=names).write(output_fn, format="ascii.csv", overwrite=True)
+    #output_fn = "../csv/k2-footprint-proposed.csv"
+    #log.info("Writing {}".format(output_fn))
+    #Table(tbl_prelim, names=names).write(output_fn, format="ascii.csv", overwrite=True)
