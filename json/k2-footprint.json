@@ -41773,12 +41773,12 @@
   },
   "c20": {
     "campaign": 20,
-    "start": "2018-10-15",
+    "start": "2018-10-14",
     "stop": "2019-01-05",
     "ra": 68.2980074,
     "dec": 22.7617688,
     "roll": 8.9906005,
-    "comments": "Taurus.",
+    "comments": "Forward-facing; Taurus.",
     "channels": {
       "1": {
         "module": "2",
