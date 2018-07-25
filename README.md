@@ -14,15 +14,9 @@ The files also detail observing dates and CCD identifiers.
 ## JSON and CSV text files
 
 The footprint coordinates are made available in JSON and CSV format
-for K2 Campaigns 0 through 13:
+for K2 Campaigns 0 through 20:
  * [json/k2-footprint.json](https://github.com/KeplerGO/K2FootprintFiles/raw/master/json/k2-footprint.json)
  * [csv/k2-footprint.csv](https://github.com/KeplerGO/K2FootprintFiles/raw/master/csv/k2-footprint.csv)
-
-The coordinates of Campaigns 14 through 17 have not been fixed at the time of writing
-and are certain to be changed slightly based on community feedback.
-Their footprints are made available in preliminary files:
- * [json/k2-footprint-proposed.json](https://github.com/KeplerGO/K2FootprintFiles/raw/master/json/k2-footprint-proposed.json) (preliminary!)
- * [csv/k2-footprint-proposed.csv](https://github.com/KeplerGO/K2FootprintFiles/raw/master/csv/k2-footprint-proposed.csv) (preliminary!)
 
 These files were created using `scripts/create-text-files.py`.
 
